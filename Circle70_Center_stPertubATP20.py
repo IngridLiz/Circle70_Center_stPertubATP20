@@ -273,19 +273,19 @@ for n in range(num_step):
         if n in [0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40,60,80,100,400,800,1200,1600,2000,3000,3999]:
         #if n in [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,30,40,50,100,200,400,600,800,1000]:
         #Create VTK files for visualization output
-        vtkfile_glc = File('results_Circle70_Center_stPertubATP20/glc/glc_R70_Center_stATP20_%sof4000s.pvd' % n)
-        vtkfile_atp = File('results_Circle70_Center_stPertubATP20/atp/atp_R70_Center_stATP20_%sof4000s.pvd' % n)
-        vtkfile_adp = File('results_Circle70_Center_stPertubATP20/adp/adp_R70_Center_stATP20_%sof4000s.pvd' % n)
-        vtkfile_gly = File('results_Circle70_Center_stPertubATP20/gly/gly_R70_Center_stATP20_%sof4000s.pvd' % n)
-        vtkfile_pyr = File('results_Circle70_Center_stPertubATP20/pyr/pyr_R70_Center_stATP20_%sof4000s.pvd' % n)
-        vtkfile_lac = File('results_Circle70_Center_stPertubATP20/lac/lac_R70_Center_stATP20_%sof4000s.pvd' % n)
-        
-        vtkfile_glc << (_a, t[0])
-        vtkfile_atp << (_b, t[0])
-        vtkfile_adp << (_c, t[0])
-        vtkfile_gly << (_d, t[0])
-        vtkfile_pyr << (_e, t[0])
-        vtkfile_lac << (_f, t[0])
+            vtkfile_glc = File('results_Circle70_Center_stPertubATP20/glc/glc_R70_Center_stATP20_%sof4000s.pvd' % n)
+            vtkfile_atp = File('results_Circle70_Center_stPertubATP20/atp/atp_R70_Center_stATP20_%sof4000s.pvd' % n)
+            vtkfile_adp = File('results_Circle70_Center_stPertubATP20/adp/adp_R70_Center_stATP20_%sof4000s.pvd' % n)
+            vtkfile_gly = File('results_Circle70_Center_stPertubATP20/gly/gly_R70_Center_stATP20_%sof4000s.pvd' % n)
+            vtkfile_pyr = File('results_Circle70_Center_stPertubATP20/pyr/pyr_R70_Center_stATP20_%sof4000s.pvd' % n)
+            vtkfile_lac = File('results_Circle70_Center_stPertubATP20/lac/lac_R70_Center_stATP20_%sof4000s.pvd' % n)
+            
+            vtkfile_glc << (_a, t[0])
+            vtkfile_atp << (_b, t[0])
+            vtkfile_adp << (_c, t[0])
+            vtkfile_gly << (_d, t[0])
+            vtkfile_pyr << (_e, t[0])
+            vtkfile_lac << (_f, t[0])
 
 
         
@@ -323,19 +323,19 @@ for n in range(num_step):
         if n in [0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40,60,80,100,400,800,1200,1600,2000,3000,3999]:
         #if n in [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,30,40,50,100,200,400,600,800,1000]:
         #Create VTK files for visualization output
-        vtkfile_glc = File('results_Circle70_Center_stPertubATP20/glc/glc_R70_Center_stATP20_%sof4000s.pvd' % n)
-        vtkfile_atp = File('results_Circle70_Center_stPertubATP20/atp/atp_R70_Center_stATP20_%sof4000s.pvd' % n)
-        vtkfile_adp = File('results_Circle70_Center_stPertubATP20/adp/adp_R70_Center_stATP20_%sof4000s.pvd' % n)
-        vtkfile_gly = File('results_Circle70_Center_stPertubATP20/gly/gly_R70_Center_stATP20_%sof4000s.pvd' % n)
-        vtkfile_pyr = File('results_Circle70_Center_stPertubATP20/pyr/pyr_R70_Center_stATP20_%sof4000s.pvd' % n)
-        vtkfile_lac = File('results_Circle70_Center_stPertubATP20/lac/lac_R70_Center_stATP20_%sof4000s.pvd' % n)
-        
-        vtkfile_glc << (_a, t[0])
-        vtkfile_atp << (_b, t[0])
-        vtkfile_adp << (_c, t[0])
-        vtkfile_gly << (_d, t[0])
-        vtkfile_pyr << (_e, t[0])
-        vtkfile_lac << (_f, t[0])
+            vtkfile_glc = File('results_Circle70_Center_stPertubATP20/glc/glc_R70_Center_stATP20_%sof4000s.pvd' % n)
+            vtkfile_atp = File('results_Circle70_Center_stPertubATP20/atp/atp_R70_Center_stATP20_%sof4000s.pvd' % n)
+            vtkfile_adp = File('results_Circle70_Center_stPertubATP20/adp/adp_R70_Center_stATP20_%sof4000s.pvd' % n)
+            vtkfile_gly = File('results_Circle70_Center_stPertubATP20/gly/gly_R70_Center_stATP20_%sof4000s.pvd' % n)
+            vtkfile_pyr = File('results_Circle70_Center_stPertubATP20/pyr/pyr_R70_Center_stATP20_%sof4000s.pvd' % n)
+            vtkfile_lac = File('results_Circle70_Center_stPertubATP20/lac/lac_R70_Center_stATP20_%sof4000s.pvd' % n)
+            
+            vtkfile_glc << (_a, t[0])
+            vtkfile_atp << (_b, t[0])
+            vtkfile_adp << (_c, t[0])
+            vtkfile_gly << (_d, t[0])
+            vtkfile_pyr << (_e, t[0])
+            vtkfile_lac << (_f, t[0])
 
 
     
